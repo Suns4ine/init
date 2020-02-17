@@ -1,1 +1,0 @@
-grep "nameserver" /etc/resolv.conf

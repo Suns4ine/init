@@ -1,3 +1,0 @@
-systemctl list-units --type service --all
-
-it is "daemons"

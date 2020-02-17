@@ -1,2 +1,0 @@
-su -l "Name"
-ssh user@hostname
