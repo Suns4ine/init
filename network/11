@@ -1,0 +1,2 @@
+#traceroute slash16.org | grep nat-1
+nat-1 (13.33.47.208)
