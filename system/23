@@ -1,0 +1,3 @@
+su $1
+passwd
+ssh $USER@$HOSTNAME
