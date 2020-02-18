@@ -1,1 +1,1 @@
-ifconfig en0 | grep "inet " | awk '{print $4}'
+for $OUT ifconfig en0 | grep "inet " | awk '{print $4}'; nslookup $OUT | grep name | awk '{print $4}'; done
