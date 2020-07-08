@@ -1,1 +1,12 @@
- pwd
+#!/bin/bash
+
+name=$(hostname | awk -F "msk." '{print $2}')
+
+schoolname="21-school.ru"
+
+	if [ "$name" = "$schoolname" ]
+	then
+		 echo "You are in School"
+	else
+		echo "You're not at school right now"
+	fi
